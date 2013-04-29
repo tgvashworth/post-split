@@ -1,5 +1,7 @@
 # post-split
 
+[![build status](https://secure.travis-ci.org/phuu/post-split.png)](http://travis-ci.org/phuu/post-split)
+
 Split a post (status, tweet) up into human-readable segments that fit inside a specific length.
 
 ## Usage
