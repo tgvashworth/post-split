@@ -1,0 +1,20 @@
+{
+  "name": "post-split",
+  "version": "0.0.1",
+  "description": "Split a post (status, tweet) up into human-readable strings of a set length.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "repository": "",
+  "keywords": [
+    "string",
+    "parse",
+    "nlp"
+  ],
+  "author": "Tom Ashworth <tom@phuu.net>",
+  "license": "MIT",
+  "dependencies": {
+    "tap": "~0.4.2"
+  }
+}
