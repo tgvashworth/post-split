@@ -11,7 +11,7 @@ The following assumes this:
 ```javascript
 var ps = require('post-split');
 
-var post = 'Hello world, this is a long post that I wish to be split into many sub-posts. It\'s long, which is useful becuse it needs to be. Longer and longer it goes. Yes.';
+var post = 'Hello world, this is a long post that I wish to be split into many sub-posts. It\'s long, which is useful becuse it needs to be. Longer and longer it goes. Yesh.';
 ```
 
 Extract segments from a post:
