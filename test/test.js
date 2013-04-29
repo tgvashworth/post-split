@@ -38,13 +38,13 @@ t.test('segment', function (t) {
   var original, res, length;
 
   original = 'a longer post with #hashtags and @mentions in important places';
-  res = ps.segment(original, 15);
+  res = ps.segments(original, 15);
   t.ok(res.length >= 3);
   lengths = res.map(function (segment) { return segment.length; });
   t.ok(Math.max.apply(Math, length) <= 15);
 
   original = 'an even longer post with #hashtags and @mentions in important places, as well as http://phuu.net links and – some – nice – punctuation there lads.';
-  res = ps.segment(original, 50);
+  res = ps.segments(original, 50);
   t.ok(res.length >= 2);
   lengths = res.map(function (segment) { return segment.length; });
   t.ok(Math.max.apply(Math, length) <= 15);

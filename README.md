@@ -17,7 +17,7 @@ var post = 'Hello world, this is a long post that I wish to be split into many s
 Extract segments from a post:
 
 ```javascript
-var segments = ps.segment(post, 50);
+var segments = ps.segments(post, 50);
 
 /*
 segments =
@@ -31,7 +31,7 @@ segments =
 With a longer segment length:
 
 ```javascript
- var segments = ps.segment(post, 70);
+ var segments = ps.segments(post, 70);
 
 /*
  segments =

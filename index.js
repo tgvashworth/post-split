@@ -1,1 +1,1 @@
-module.exports = require('./post-split');
+module.exports = require('./lib/post-split');
