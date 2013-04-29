@@ -1,6 +1,6 @@
 {
   "name": "post-split",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Split a post (status, tweet) up into human-readable strings of a set length.",
   "main": "index.js",
   "scripts": {
